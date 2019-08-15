@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import AboutTerminal from './components/AboutTerminal';
+import OtherExperience from './components/OtherExperience';
+import PageHeader from './components/PageHeader';
+import WorkExperience from './components/WorkExperience';
+import TypingInfo from './components/TypingInfo';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AboutTerminal></AboutTerminal>
     </div>
   );
 }
