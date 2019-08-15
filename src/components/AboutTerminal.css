@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.Box{
+    width: 670px;
+    height: 674px;
+    display: inline-block;
+}
+
+.BlackBox{
+    width: 670px;
+    height: 630px;
+    background: #111111;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.WindowBar{
+    width: 670px;
+    height: 44px;
+    background: #DBDBDB;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+.Circles{
+    margin-top: 12.5px; 
+    margin-left: 12.5px;
+    float: left;
+}
+
+.RedCircle{
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    float: left;
+    background: #FF605C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.YellowCircle{
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    margin-left: 10px;
+    float: left;
+    background: #FFBD44;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.GreenCircle
+{
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    margin-left: 10px;
+    float: left;
+    background: #00CA4E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.WindowText
+{
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 89.5px;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.TerminalText{
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.Command{
+    float: left;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    font-size: 16px;
+    color:#FAFAFA;
+    text-align: left;
+}
+
+.Result{
+    float: left;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #CCCCCC;
+    margin-left: 36px;
+    text-align: left;
+}
+
+.NextTerminalLine
+{
+    line-height: 36px;
+}
+
+.Hyperlink
+{
+    color: #70a9ff;
+}
+
