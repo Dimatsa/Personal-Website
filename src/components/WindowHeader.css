@@ -1,0 +1,42 @@
+.window-bar {
+    height: 44px;
+    background: #DBDBDB;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+.window-bar-buttons {
+    margin-top: 12.5px;
+    margin-left: 12.5px;
+    float: left;
+}
+
+.window-bar-button {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    float: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-red {
+    background: #FF605C;
+}
+
+.button-yellow {
+    background: #FFBD44;
+    margin-left: 10px;
+}
+
+.button-green {
+    background: #00CA4E;
+    margin-left: 10px;
+}
+.window-text {
+
+    font-size: 20px;
+    text-align: center;
+    margin-right: 89.5px;
+    padding-top: 10px;
+    color: #000000;
+}
