@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import WindowHeader from './WindowHeader'
 import './AboutTerminal.css';
 
 export default class AboutTerminal extends Component {
@@ -6,89 +7,75 @@ export default class AboutTerminal extends Component {
         super(props);
     }
 
-      
     render() {
         return (
-        <div className = 'Box'>
-            <div className = 'WindowBar'>
-                <div className = 'Circles'>
-                    <div  className = 'RedCircle'></div>
-                    <div className = 'YellowCircle'></div>
-                    <div className = 'GreenCircle'></div>
+            <div className='about-box'>
+                <WindowHeader title='About'></WindowHeader>
+                <div className='about-terminal-box'>
+                    <span className='terminal-text'>
+                        <b className='terminal-command'>> Person.origin</b>
+                        <br />
+                        <b className='terminal-result'>=> "Mumbai, India"</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.education</b>
+                        <br />
+                        <b className='terminal-result'>=> "Harvard University"</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.major</b>
+                        <br />
+                        <b className='terminal-result'>=> "Whateveryoucallitology"</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.major.courses</b>
+                        <br />
+                        <b className='terminal-result'>=> "This, that and that"</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.expectedGraduation</b>
+                        <br />
+                        <b className='terminal-result'>=> "July 2030"</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.languages</b>
+                        <br />
+                        <b className='terminal-result'>=> ["Java", "Python", "C#"]</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.technologies</b>
+                        <br />
+                        <b className='terminal-result'>=> ["Git", "CLI"]</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.interests</b>
+                        <br />
+                        <b className='terminal-result'>=> Invalid terminal-command.</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.resume</b>
+                        <br />
+                        <b className='terminal-result'>=> "<a class='Hyperlink' href='https://www.google.ca/' >resume.pdf</a>"</b>
+                        <br className='next-terminal-line' />
+
+                        <b className='terminal-command'>> Person.email</b>
+                        <br />
+                        <b className='terminal-result'>=> "<a class='Hyperlink' href='google.ca' >123abc@mail.net</a>"</b>
+                        <br className='next-terminal-line' />
+
+
+
+
+
+
+                    </span>
+
                 </div>
-                <p className = 'WindowText'>
-                    System Information
-                    
-                </p>
-            
-                
-               
-           </div>
-            <div className = 'BlackBox'>
-                <span className = 'TerminalText'>
-                    <b class = 'Command'>> Person.origin</b>
-                    <br/>
-                    <b class = 'Result'>=> "Mumbai, India"</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.education</b>
-                    <br/>
-                    <b class = 'Result'>=> "Harvard University"</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.major</b>
-                    <br/>
-                    <b class = 'Result'>=> "Whateveryoucallitology"</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.major.courses</b>
-                    <br/>
-                    <b class = 'Result'>=> "This, that and that"</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.expectedGraduation</b>
-                    <br/>
-                    <b class = 'Result'>=> "July 2030"</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.languages</b>
-                    <br/>
-                    <b class = 'Result'>=> ["Java", "Python", "C#"]</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.technologies</b>
-                    <br/>
-                    <b class = 'Result'>=> ["Git", "CLI"]</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.interests</b>
-                    <br/>
-                    <b class = 'Result'>=> Invalid command.</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.resume</b>
-                    <br/>
-                    <b class = 'Result'>=> "<a class = 'Hyperlink' href = 'https://www.google.ca/' >resume.pdf</a>"</b>
-                    <br class = 'NextTerminalLine'/>
-
-                    <b class = 'Command'>> Person.email</b>
-                    <br/>
-                    <b class = 'Result'>=> "<a class = 'Hyperlink' href = 'google.ca' >123abc@mail.net</a>"</b>
-                    <br class = 'NextTerminalLine'/>
-
-
-                
-
-
-
-                </span>
-           
-            </div>
-            
 
 
 
 
-        </div>)
+
+            </div>)
     }
 }
