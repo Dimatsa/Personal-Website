@@ -1,0 +1,48 @@
+.work-experience{
+    width: 1040px;
+    margin: auto;
+}
+
+.work-experience-body{
+    width: 1040px;
+    height: 1060px;
+    background: red;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 20px;
+}
+
+.work-position{
+    background: white;
+    height: 310px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.work-icon
+{
+    float: left;
+    margin: 20px;
+    background: cyan;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+}
+
+.company-name, .date, .position-name, .location
+{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.company-name, .position-name
+{
+    padding-top: 36px;
+    float: left;
+    text-align: left;
+}
+
+.date, .location{
+    padding: 36px;
+    float: right;
+}

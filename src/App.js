@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <AboutTerminal />
       <OtherExperience />
+      <WorkExperience />
     </div>
   );
 }
