@@ -1,12 +1,13 @@
 .work-experience{
     width: 1040px;
     margin: auto;
+    margin-bottom: 0;
 }
 
 .work-experience-body{
     width: 1040px;
-    height: 1060px;
-    background: red;
+    height: 1030px;
+    background: #608EAF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 20px;
 }
@@ -23,26 +24,85 @@
 {
     float: left;
     margin: 20px;
+    margin-bottom: 0px;
     background: cyan;
     width: 105px;
     height: 105px;
     border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.company-name, .date, .position-name, .location
+.company-name, .date, .position-name, .location, .work-description
 {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 14px;
 }
 
 .company-name, .position-name
 {
-    padding-top: 36px;
     float: left;
     text-align: left;
+
+}
+
+.company-name{
+    padding-top: 36px;
+}
+
+.position-name, .location{
+    padding-top: 18px;
 }
 
 .date, .location{
-    padding: 36px;
+    text-align: right;
     float: right;
+    padding-right: 36px;
+}
+
+.date{
+    padding-top: 36px;
+}
+.new-line{
+    line-height: 60px;
+}
+
+.work-description{
+    padding-left: 146px;
+    padding-right: 120px;
+    float:left;
+    text-align: left;
+    line-height: 24px;
+}
+
+.skills{
+    position: relative;
+    top: 25px;
+    margin-left: 146px;
+    float: left;
+}
+
+.language, .technology{
+    display: inline-block;
+    margin-right: 15px;
+    width: 80px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.language
+{
+    border: 1px solid #50A9D1;
+}
+
+.technology
+{
+    border: 1px solid #86BE91;
+}
+
+.language-body, .technology-body{
+    position: relative;
+    top: 3px;
+    line-height: 0;
+    font-size: 11px;
 }
