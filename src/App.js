@@ -8,6 +8,7 @@ import TypingInfo from './components/TypingInfo';
 function App() {
   return (
     <div className="App">
+      <PageHeader/>
       <AboutTerminal />
       <WorkExperience />
       <OtherExperience />

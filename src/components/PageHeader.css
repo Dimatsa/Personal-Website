@@ -1,0 +1,64 @@
+.rectangle
+{
+display: flexbox;
+width: auto;
+height: 250px;
+
+background: #797F99;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.photo
+{
+display: inline-block;
+margin:auto;
+margin-top: 25px;
+margin-right: 2%;
+width: 180px;
+height: 180px;
+border-radius: 50%;
+background: cyan;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text
+{
+    position: relative;
+    top: -40px;
+    display: inline-block;
+    width: 500px;
+}
+
+.name
+{
+    display: block;
+    float: left;
+    font-size: 48px;
+    color: white;
+}
+
+.new-line
+{
+    line-height: 80px;
+}
+
+.description
+{
+    line-height: 19x;
+    font-size: 16px;
+    text-align: left;
+    display: inline-block;
+    color: white;
+}
+
+.icon
+{
+    margin-top: 20px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: darkcyan;
+    margin-right: 20px;
+    float: left;
+}
